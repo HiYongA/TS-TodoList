@@ -2,10 +2,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/config/configStore";
 import { styled } from "styled-components";
 import { useNavigate } from "react-router-dom";
-import { removeTodo, switchTodo } from "../redux/modules/todosSlice";
-import { isDoneProps } from "../interfaces/isDoneProps";
+import { IsDoneProps } from "../interfaces/IsDoneProps";
+import { removeTodo, switchTodo } from "../redux/modules/todos";
 
-const TodoList = ({ isDone }: isDoneProps) => {
+const TodoList = ({ isDone }: IsDoneProps) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const todos = useSelector((state: RootState) => state.todos);

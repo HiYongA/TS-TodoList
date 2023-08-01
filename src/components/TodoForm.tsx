@@ -2,7 +2,7 @@ import { FormEvent } from "react";
 import { useDispatch } from "react-redux";
 import useInput from "../api/useInput";
 import shortid from "shortid";
-import { addTodo } from "../redux/modules/todosSlice";
+import { addTodo } from "../redux/modules/todos";
 
 const TodoForm = () => {
   const dispatch = useDispatch();

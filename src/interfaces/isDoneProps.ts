@@ -1,3 +1,3 @@
-export interface isDoneProps {
+export interface IsDoneProps {
   isDone: boolean;
 }
