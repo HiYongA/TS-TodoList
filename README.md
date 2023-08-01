@@ -11,7 +11,7 @@
                 - 이를 통해 타입 에러를 사전에 방지하고 개발자들이 올바른 타입의 데이터를 전달하도록 유도할 수 있습니다.
             - Redux 상태 관리
                 - 리덕스를 사용할 때 Redux Store의 상태(State)와 액션(Action)에 대한 타입을 잘 정의해야 합니다.
-                - **`redux`**와 **`react-redux`** 라이브러리를 이용하여 스토어를 생성하고 연결할 때, 타입 에러가 발생하지 않도록 해야 합니다.
+                - `redux`와 `react-redux` 라이브러리를 이용하여 스토어를 생성하고 연결할 때, 타입 에러가 발생하지 않도록 해야 합니다.
             - useSelector, useDispatch 사용
-                - Redux 관련 Hooks인 **`useSelector`**과 **`useDispatch`**를 사용할 때, 상태 및 액션의 타입을 정확히 지정해야 합니다.
-                - 특히, **`useSelector`**를 사용하여 상태를 가져올 때 반환되는 값의 타입을 명시해야 합니다.
+                - Redux 관련 Hooks인 `useSelector`과 `useDispatch`를 사용할 때, 상태 및 액션의 타입을 정확히 지정해야 합니다.
+                - 특히, `useSelector`를 사용하여 상태를 가져올 때 반환되는 값의 타입을 명시해야 합니다.
